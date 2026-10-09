@@ -1,0 +1,82 @@
+@startuml Diagramme de Flux - Cycle de Vie d'un Ticket
+
+!theme plain
+skinparam activity {
+    BackgroundColor LightBlue
+    BorderColor Black
+    FontSize 12
+}
+
+start
+
+:Utilisateur connecté;
+:Accès au formulaire de création de ticket;
+
+:Utilisateur saisit le message;
+:Utilisateur choisit la catégorie\n(ou laisse vide);
+
+if (Catégorie fournie?) then (non)
+    :Activation de la classification ML;
+    :Preprocessing du texte\n(NLTK, stemming, stopwords);
+    :Tokenization du texte;
+    :Prédiction avec modèle TensorFlow;
+    :Obtenir catégorie prédite;
+    note right
+        **Classification automatique**
+        Le modèle ML suggère
+        une catégorie avec
+        ~98.5% de précision
+    end note
+else (oui)
+    :Utiliser catégorie fournie par l'utilisateur;
+endif
+
+:Validation des données du ticket;
+
+if (Données valides?) then (non)
+    :Afficher erreurs de validation;
+    :Retour au formulaire;
+    stop
+else (oui)
+    :Créer le ticket en base de données;
+    :Associer le ticket à l'utilisateur;
+    :Définir statut initial: "non traité";
+    :Enregistrer la date de création;
+    
+    :Afficher message de confirmation;
+    :Rediriger vers le dashboard;
+    
+    :Ticket visible dans le dashboard;
+    
+    if (Administrateur prend en charge?) then (oui)
+        :Changer statut: "en cours";
+        :Analyser le problème;
+        
+        if (Problème résolu?) then (oui)
+            :Changer statut: "résolu";
+            :Notifier l'utilisateur;
+            :Ticket prêt pour clôture;
+            
+            if (Utilisateur confirme résolution?) then (oui)
+                :Changer statut: "fermé";
+                :Archiver le ticket;
+                stop
+            else (non)
+                :Changer statut: "en cours";
+                :Retour à l'analyse;
+            endif
+        else (non)
+            :Mettre en attente si nécessaire;
+            :Changer statut: "en attente";
+            :Retour à l'analyse;
+        endif
+    else (non)
+        :Ticket reste en statut "non traité";
+        :Attente de prise en charge;
+    endif
+endif
+
+stop
+
+@enduml
+

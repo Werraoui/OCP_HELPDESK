@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOXICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/style1.css" />
+    <title>Login & Register | Helpdesk</title>
+    <style>
+      :root {
+        --primary-color: #1a4d29; /* vert du logo OCP */
+        --white-color: #fff;
+        --black-color: #111;
+      }
+      .logo-ocp {
+        position: absolute;
+        top: 32px;
+        left: 32px;
+        z-index: 10;
+        height: 44px;
+      }
+      .form-header {
+        background: var(--primary-color) !important;
+      }
+      .titles {
+        color: var(--white-color) !important;
+      }
+      .btn-submit {
+        background: var(--primary-color) !important;
+      }
+      .btn-submit:hover {
+        background: #14501e !important;
+      }
+      .input-field:focus {
+        border-color: var(--primary-color) !important;
+      }
+      .input-field:focus ~ .label {
+        color: var(--primary-color) !important;
+      }
+      .switch-form a {
+        color: var(--primary-color) !important;
+      }
+      .form-cols a {
+        color: var(--primary-color) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="/static/images/logo.png" alt="Logo OCP" class="logo-ocp">
+    <div class="wrapper">
+      <div class="form-header">
+        <div class="titles">
+          <div class="login-title">Se connecter</div>
+          <div class="register-title"> Ou S'inscrire</div>
+        </div>
+      </div>
+      <!-- LOGIN FORM -->
+      <form action="#" class="login-form" autocomplete="off">
+        <div class="input-box">
+          <input type="text" class="input-field" id="log-email" required />
+          <label for="log-email" class="label">Email</label>
+          <i class="bx bx-envelope icon"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" class="input-field" id="log-pass" required />
+          <label for="log-pass" class="label">Mot de passe</label>
+          <i class="bx bx-lock-alt icon"></i>
+        </div>
+        <div class="form-cols">
+          <div class="col-1"></div>
+          <div class="col-2">
+            <a href="#">Mot de passe oublie?</a>
+          </div>
+        </div>
+        <div class="input-box">
+          <button class="btn-submit" id="SignInBtn">
+            Sign In <i class="bx bx-log-in"></i>
+          </button>
+        </div>
+        <div class="switch-form">
+          <span
+            >Vous n'avez pas de compte?
+            <a href="#" onclick="registerFunction()">S'inscrire</a></span
+          >
+        </div>
+      </form>
+      <!-- REGISTER FORM -->
+      <form action="#" class="register-form" autocomplete="off">
+        <div class="input-box">
+          <input type="text" class="input-field" id="reg-nom" required />
+          <label for="reg-nom" class="label">Nom</label>
+          <i class="bx bx-user icon"></i>
+        </div>
+        <div class="input-box">
+          <input type="text" class="input-field" id="reg-prenom" required />
+          <label for="reg-prenom" class="label">Prénom</label>
+          <i class="bx bx-user icon"></i>
+        </div>
+        <div class="input-box">
+          <input type="text" class="input-field" id="reg-poste" required />
+          <label for="reg-poste" class="label">Poste</label>
+          <i class="bx bx-user icon"></i>
+        </div>
+        <div class="input-box">
+          <input type="text" class="input-field" id="reg-email" required />
+          <label for="reg-email" class="label">Email</label>
+          <i class="bx bx-envelope icon"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" class="input-field" id="reg-pass" required />
+          <label for="reg-pass" class="label">Mot de passe</label>
+          <i class="bx bx-lock-alt icon"></i>
+        </div>
+        <div class="form-cols">
+          <div class="col-1">
+            <input type="checkbox" id="agree" />
+            <label for="agree"> Je respecte les termes et les conditions</label>
+          </div>
+          <div class="col-2"></div>
+        </div>
+        <div class="input-box">
+          <button class="btn-submit" id="SignUpBtn">
+            S'inscrire <i class="bx bx-user-plus"></i>
+          </button>
+        </div>
+        <div class="switch-form">
+          <span
+            >Vous avez deja un compte?
+            <a href="#" onclick="loginFunction()">Se connecter</a></span
+          >
+        </div>
+      </form>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+  </body>
+</html>

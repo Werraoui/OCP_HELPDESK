@@ -1,0 +1,67 @@
+@startuml Diagramme de Cas d'Utilisation - OCP Helpdesk
+
+!theme plain
+skinparam usecase {
+    BackgroundColor LightBlue
+    BorderColor Black
+}
+
+skinparam actor {
+    BackgroundColor LightYellow
+    BorderColor Black
+}
+
+left to right direction
+
+actor "Employé OCP" as User
+actor "Administrateur" as Admin
+
+rectangle "Système OCP Helpdesk" {
+    ' Cas d'utilisation pour les employés
+    usecase "S'inscrire" as UC1
+    usecase "Se connecter" as UC2
+    usecase "Se déconnecter" as UC3
+    usecase "Créer un ticket" as UC4
+    usecase "Consulter ses tickets" as UC5
+    usecase "Utiliser le chatbot" as UC6
+    usecase "Voir le dashboard" as UC7
+    
+    ' Cas d'utilisation pour les administrateurs
+    usecase "Gérer les utilisateurs" as UC8
+    usecase "Gérer les tickets" as UC9
+    usecase "Voir les statistiques" as UC10
+}
+
+' Relations Employé
+User --> UC1
+User --> UC2
+User --> UC3
+User --> UC4
+User --> UC5
+User --> UC6
+User --> UC7
+
+' Relations Administrateur
+Admin --> UC2
+Admin --> UC8
+Admin --> UC9
+Admin --> UC10
+
+' Relations entre cas d'utilisation
+UC4 ..> UC7 : inclut
+UC5 ..> UC7 : inclut
+UC6 ..> UC7 : peut utiliser
+
+note right of UC4
+    La création de ticket peut
+    utiliser la classification
+    automatique par ML
+end note
+
+note right of UC7
+    Le dashboard affiche
+    les tickets et statistiques
+end note
+
+@enduml
+

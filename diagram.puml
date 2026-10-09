@@ -1,0 +1,219 @@
+@startuml Diagramme de Classes - OCP Helpdesk
+
+!theme plain
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+
+' ============================================
+' MODÈLES DE DONNÉES
+' ============================================
+
+class User {
+    - id: BigAutoField
+    - nom: CharField(max_length=100)
+    - prenom: CharField(max_length=100)
+    - email: EmailField(unique=True)
+    - poste: CharField(max_length=100)
+    - password: CharField(max_length=128)
+    + __str__(): string
+}
+
+class Ticket {
+    - id: BigAutoField
+    - message: TextField
+    - categorie: CharField(max_length=100)
+    - date: DateTimeField(auto_now_add=True)
+    - statut: CharField(max_length=50, default="non traité")
+    + __str__(): string
+}
+
+' ============================================
+' SERIALIZERS
+' ============================================
+
+class UseSerializer {
+    + to_representation()
+    + to_internal_value()
+    + validate()
+    + create(validated_data)
+}
+
+class TicketSerializer {
+    + to_representation()
+    + to_internal_value()
+    + validate()
+    + create(validated_data)
+}
+
+' ============================================
+' VUES (VIEWS)
+' ============================================
+
+class RegisterView {
+    + post(request): JsonResponse
+    - validate_email(email): bool
+    - hash_password(password): string
+}
+
+class LoginView {
+    + post(request): Response
+    - verify_credentials(email, password): User
+    - create_session(user): Session
+}
+
+class CreateTicketView {
+    + post(request): Response
+    - validate_ticket_data(data): bool
+    - classify_ticket(message): string
+}
+
+class ChatbotAPIView {
+    + post(request): Response
+    - process_message(message): string
+    - generate_response(user_message): string
+}
+
+class DashboardView {
+    + get(request): HttpResponse
+    - get_user_tickets(user): QuerySet
+    - get_statistics(user): dict
+}
+
+' ============================================
+' MODULE MACHINE LEARNING
+' ============================================
+
+class MLModel {
+    - model: keras.Model
+    - tokenizer: Tokenizer
+    - label_encoder: LabelEncoder
+    + load_model(path)
+    + predict(text: string): string
+    + preprocess_text(text: string): string
+}
+
+class TextPreprocessor {
+    - stemmer: PorterStemmer
+    - stopwords: set
+    + transform_text(text: string): string
+    + remove_punctuation(text: string): string
+    + remove_stopwords(tokens: list): list
+    + stem_words(tokens: list): list
+}
+
+class TokenizerManager {
+    - tokenizer: Tokenizer
+    - max_length: int
+    + fit_on_texts(texts: list)
+    + texts_to_sequences(texts: list): list
+    + pad_sequences(sequences: list): array
+}
+
+class LabelEncoderManager {
+    - encoder: LabelEncoder
+    - categories: list
+    + fit_transform(labels: list): array
+    + inverse_transform(encoded: array): list
+}
+
+' ============================================
+' RELATIONS ENTRE MODÈLES
+' ============================================
+
+User "1" --> "*" Ticket : crée
+User "1" --> "*" Ticket : possède
+
+' ============================================
+' RELATIONS SERIALIZERS
+' ============================================
+
+UseSerializer ..> User : sérialise
+TicketSerializer ..> Ticket : sérialise
+TicketSerializer ..> User : référence
+
+' ============================================
+' RELATIONS VUES
+' ============================================
+
+RegisterView ..> User : crée
+RegisterView ..> UseSerializer : utilise
+LoginView ..> User : vérifie
+LoginView ..> UseSerializer : utilise
+CreateTicketView ..> Ticket : crée
+CreateTicketView ..> TicketSerializer : utilise
+CreateTicketView ..> User : référence
+CreateTicketView ..> MLModel : utilise (optionnel)
+ChatbotAPIView ..> MLModel : peut utiliser
+DashboardView ..> Ticket : consulte
+DashboardView ..> User : référence
+
+' ============================================
+' RELATIONS MODULE ML
+' ============================================
+
+MLModel ..> TextPreprocessor : utilise
+MLModel ..> TokenizerManager : utilise
+MLModel ..> LabelEncoderManager : utilise
+
+' ============================================
+' NOTES ET DOCUMENTATION
+' ============================================
+
+note right of User
+    **Modèle Utilisateur**
+    Stocke les informations
+    des employés OCP
+    - Email unique
+    - Mot de passe hashé
+end note
+
+note right of Ticket
+    **Modèle Ticket**
+    Représente une demande
+    d'assistance
+    - Statut par défaut: "non traité"
+    - Date de création automatique
+end note
+
+note bottom of MLModel
+    **Modèle TensorFlow/Keras**
+    - Architecture: CNN (Convolutional Neural Network)
+    - Accuracy: ~98.5%
+    - 7 catégories de classification
+end note
+
+note left of CreateTicketView
+    **Création de Ticket**
+    Peut utiliser le modèle ML
+    pour classifier automatiquement
+    la catégorie du ticket
+end note
+
+' ============================================
+' COULEURS ET STYLES
+' ============================================
+
+User <<Model>>
+Ticket <<Model>>
+UseSerializer <<Serializer>>
+TicketSerializer <<Serializer>>
+RegisterView <<View>>
+LoginView <<View>>
+CreateTicketView <<View>>
+ChatbotAPIView <<View>>
+DashboardView <<View>>
+MLModel <<ML>>
+TextPreprocessor <<ML>>
+TokenizerManager <<ML>>
+LabelEncoderManager <<ML>>
+
+skinparam class {
+    BackgroundColor<<Model>> LightBlue
+    BackgroundColor<<Serializer>> LightGreen
+    BackgroundColor<<View>> LightYellow
+    BackgroundColor<<ML>> LightCoral
+    BorderColor Black
+    ArrowColor Black
+}
+
+@enduml

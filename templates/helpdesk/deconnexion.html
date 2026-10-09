@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Déconnexion | Helpdesk</title>
+    <link rel="stylesheet" href="/static/css/style1.css" />
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f5f5f5;
+      }
+      .logout-container {
+        background: #fff;
+        padding: 40px 32px;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        text-align: center;
+      }
+      .logout-container img {
+        width: 80px;
+        margin-bottom: 16px;
+      }
+      .logout-title {
+        font-size: 1.5rem;
+        color: #1a4d29;
+        margin-bottom: 12px;
+      }
+      .logout-message {
+        color: #333;
+        margin-bottom: 24px;
+      }
+      .btn-login {
+        background: #1a4d29;
+        color: #fff;
+        border: none;
+        padding: 12px 32px;
+        border-radius: 6px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      .btn-login:hover {
+        background: #14501e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logout-container">
+      <img src="/static/images/logo.png" alt="Logo OCP" />
+      <div class="logout-title">Déconnexion réussie</div>
+      <div class="logout-message">Vous avez été déconnecté avec succès.<br>Merci d'avoir utilisé le Helpdesk OCP.</div>
+      <a href="/templates/helpdesk/login_register.html">
+        <button class="btn-login">Se reconnecter</button>
+      </a>
+    </div>
+  </body>
+</html>

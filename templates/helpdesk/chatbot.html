@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/style3.css"/>
+    <title>Chatbot</title>
+  </head>
+  <body class="container">
+    <aside class="aside_class">
+      <div class="logo"><img src="/static/images/logo.png" alt="logo" /></div>
+      <nav class="nav_class">
+        <ul>
+          <li><a href="/dashboard/">Dashboard</a></li>
+          <li><a href="/chatbot/">Chatbot</a></li>
+          <li><a href="/logout/">Déconnexion</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="chat_area">
+      <div class="messages" id="messages">
+        <div class="message bot">Bonjour, comment puis-je vous aider&nbsp;?</div>
+      </div>
+      <form class="request_area" id="chat-form" autocomplete="off">
+        <input type="text" id="request" placeholder="Écrivez votre message..." required />
+        <button type="submit" class="send-btn">Envoyer</button>
+      </form>
+    </div>
+    
+    <script src="/static/js/chatbot.js"></script>
+  </body>
+</html>

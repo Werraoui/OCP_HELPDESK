@@ -1,0 +1,701 @@
+message,category
+Session expirée trop rapidement. Redémarrage déjà essayé.,Authentication
+Authentication failed repeatedly. Please assist.,Authentication
+Authentication failed repeatedly. Any solution available?,Authentication
+Forgot my password.,Authentication
+Access request pending. This needs urgent attention.,Authentication
+Login button unresponsive. Blocking my tasks.,Authentication
+Session expired. Happening since this morning.,Authentication
+Two-factor code not working. Any solution available?,Authentication
+Erreur d'identifiants invalides. Une solution ?,Authentication
+Je ne peux pas me connecter au système. Problème très frustrant.,Authentication
+Login button unresponsive. Very frustrating issue.,Authentication
+Two-factor code not working.,Authentication
+Session expired.,Authentication
+Authentication failed repeatedly. Happening since this morning.,Authentication
+Password reset link expired. Happening since this morning.,Authentication
+"Erreur d'identifiants invalides. Déjà signalé, toujours pas résolu.",Authentication
+"Session expired. Reported before, still not fixed.",Authentication
+Access request pending. Can't continue my work.,Authentication
+Forgot my password. Blocking my tasks.,Authentication
+Can't log in to the system. Already tried rebooting.,Authentication
+Je ne peux pas me connecter au système. Je ne peux pas travailler.,Authentication
+Forgot my password. Can't continue my work.,Authentication
+Session expired. Very frustrating issue.,Authentication
+Échec d'authentification répété. Cela dure depuis ce matin.,Authentication
+Password reset link expired. Already tried rebooting.,Authentication
+Invalid credentials error. Very frustrating issue.,Authentication
+Mot de passe oublié. Besoin d'assistance.,Authentication
+Forgot my password. Any solution available?,Authentication
+Can't log in to the system. Any solution available?,Authentication
+Le code 2FA ne fonctionne pas. Je ne peux pas travailler.,Authentication
+Erreur d'identifiants invalides. Redémarrage déjà essayé.,Authentication
+"Account locked after attempts. Reported before, still not fixed.",Authentication
+Session expired. Blocking my tasks.,Authentication
+Lien de réinitialisation expiré. C'est urgent.,Authentication
+Account locked after attempts.,Authentication
+Je ne peux pas me connecter au système. Une solution ?,Authentication
+Two-factor code not working. Very frustrating issue.,Authentication
+Invalid credentials error. Happening since this morning.,Authentication
+Je ne peux pas me connecter au système. Besoin d'assistance.,Authentication
+Le bouton de connexion ne répond pas. Besoin d'assistance.,Authentication
+"Le code 2FA ne fonctionne pas. Déjà signalé, toujours pas résolu.",Authentication
+"Échec d'authentification répété. Déjà signalé, toujours pas résolu.",Authentication
+Invalid credentials error. Blocking my tasks.,Authentication
+Compte verrouillé après plusieurs tentatives. Une solution ?,Authentication
+Access request pending. Please assist.,Authentication
+Erreur d'identifiants invalides. Cela dure depuis ce matin.,Authentication
+"Two-factor code not working. Reported before, still not fixed.",Authentication
+Lien de réinitialisation expiré. Besoin d'assistance.,Authentication
+Lien de réinitialisation expiré. Redémarrage déjà essayé.,Authentication
+Compte verrouillé après plusieurs tentatives. Redémarrage déjà essayé.,Authentication
+Mot de passe oublié. Problème très frustrant.,Authentication
+Session expired. Please assist.,Authentication
+Account locked after attempts. Happening since this morning.,Authentication
+Mot de passe oublié. Bloque mes tâches.,Authentication
+Forgot my password. This needs urgent attention.,Authentication
+Le code 2FA ne fonctionne pas. C'est urgent.,Authentication
+Session expirée trop rapidement.,Authentication
+Password reset link expired. Blocking my tasks.,Authentication
+Je ne peux pas me connecter au système.,Authentication
+Échec d'authentification répété. Bloque mes tâches.,Authentication
+Login button unresponsive. Happening since this morning.,Authentication
+Two-factor code not working. Please assist.,Authentication
+"Accès au compte en attente de validation. Déjà signalé, toujours pas résolu.",Authentication
+Login button unresponsive. Please assist.,Authentication
+Session expired. This needs urgent attention.,Authentication
+Le bouton de connexion ne répond pas. Problème très frustrant.,Authentication
+Mot de passe oublié. Une solution ?,Authentication
+Authentication failed repeatedly.,Authentication
+Account locked after attempts. This needs urgent attention.,Authentication
+Forgot my password. Happening since this morning.,Authentication
+Invalid credentials error.,Authentication
+Compte verrouillé après plusieurs tentatives. Je ne peux pas travailler.,Authentication
+Login button unresponsive. Any solution available?,Authentication
+Le code 2FA ne fonctionne pas. Une solution ?,Authentication
+Invalid credentials error. Already tried rebooting.,Authentication
+Erreur d'identifiants invalides. Bloque mes tâches.,Authentication
+Le bouton de connexion ne répond pas. Cela dure depuis ce matin.,Authentication
+Mot de passe oublié.,Authentication
+Invalid credentials error. Please assist.,Authentication
+Two-factor code not working. Happening since this morning.,Authentication
+Lien de réinitialisation expiré. Cela dure depuis ce matin.,Authentication
+Password reset link expired. Very frustrating issue.,Authentication
+Access request pending. Happening since this morning.,Authentication
+Lien de réinitialisation expiré. Je ne peux pas travailler.,Authentication
+Access request pending.,Authentication
+Le bouton de connexion ne répond pas. Une solution ?,Authentication
+Accès au compte en attente de validation. Je ne peux pas travailler.,Authentication
+"Je ne peux pas me connecter au système. Déjà signalé, toujours pas résolu.",Authentication
+"Authentication failed repeatedly. Reported before, still not fixed.",Authentication
+Authentication failed repeatedly. Blocking my tasks.,Authentication
+Account locked after attempts. Any solution available?,Authentication
+Password reset link expired.,Authentication
+Login button unresponsive. Can't continue my work.,Authentication
+"Lien de réinitialisation expiré. Déjà signalé, toujours pas résolu.",Authentication
+Le bouton de connexion ne répond pas. Je ne peux pas travailler.,Authentication
+Session expirée trop rapidement. Cela dure depuis ce matin.,Authentication
+Erreur d'identifiants invalides. Je ne peux pas travailler.,Authentication
+Password reset link expired. This needs urgent attention.,Authentication
+Lien de réinitialisation expiré.,Authentication
+Mot de passe oublié. Cela dure depuis ce matin.,Authentication
+Messages stuck in outbox.,Email
+Not receiving emails. Already tried rebooting.,Email
+"Can't access webmail. Reported before, still not fixed.",Email
+Le filtre anti-spam bloque tout. Cela dure depuis ce matin.,Email
+Les messages restent dans la boîte d'envoi. Problème très frustrant.,Email
+Not receiving emails. Please assist.,Email
+Je reçois les mails en double. Je ne peux pas travailler.,Email
+Mail server timeout. This needs urgent attention.,Email
+Les messages restent dans la boîte d'envoi. C'est urgent.,Email
+Can't access webmail. Happening since this morning.,Email
+Can't delete old emails.,Email
+Suppression des emails impossible. Besoin d'assistance.,Email
+Spam filter too strict. Happening since this morning.,Email
+"Not receiving emails. Reported before, still not fixed.",Email
+Not receiving emails. Blocking my tasks.,Email
+Impossible d'envoyer des emails. Cela dure depuis ce matin.,Email
+"Signature d'email manquante. Déjà signalé, toujours pas résolu.",Email
+Suppression des emails impossible. Bloque mes tâches.,Email
+Le serveur de messagerie ne répond pas. Bloque mes tâches.,Email
+Impossible d'envoyer des emails. C'est urgent.,Email
+Not receiving emails. This needs urgent attention.,Email
+Not receiving emails. Happening since this morning.,Email
+Emails aren't sending. Any solution available?,Email
+Signature d'email manquante. Bloque mes tâches.,Email
+Le filtre anti-spam bloque tout. Besoin d'assistance.,Email
+Receiving duplicates. Very frustrating issue.,Email
+Signature d'email manquante. Besoin d'assistance.,Email
+Can't access webmail. This needs urgent attention.,Email
+Mailbox is full.,Email
+Impossible d'envoyer des emails. Je ne peux pas travailler.,Email
+Je reçois les mails en double. Redémarrage déjà essayé.,Email
+Can't access webmail. Very frustrating issue.,Email
+Le serveur de messagerie ne répond pas. Je ne peux pas travailler.,Email
+Suppression des emails impossible. Problème très frustrant.,Email
+Les messages restent dans la boîte d'envoi. Une solution ?,Email
+Je ne reçois pas mes courriels. C'est urgent.,Email
+Les messages restent dans la boîte d'envoi. Je ne peux pas travailler.,Email
+Je ne peux pas accéder au webmail. C'est urgent.,Email
+Can't access webmail. Please assist.,Email
+Impossible d'envoyer des emails. Une solution ?,Email
+Le filtre anti-spam bloque tout.,Email
+Spam filter too strict. Please assist.,Email
+Email signature missing. Any solution available?,Email
+Impossible d'envoyer des emails.,Email
+"Mail server timeout. Reported before, still not fixed.",Email
+Suppression des emails impossible. C'est urgent.,Email
+Mailbox is full. This needs urgent attention.,Email
+"Impossible d'envoyer des emails. Déjà signalé, toujours pas résolu.",Email
+Mailbox is full. Happening since this morning.,Email
+"Can't delete old emails. Reported before, still not fixed.",Email
+Mailbox is full. Blocking my tasks.,Email
+"Le filtre anti-spam bloque tout. Déjà signalé, toujours pas résolu.",Email
+Je reçois les mails en double. Problème très frustrant.,Email
+Emails aren't sending. This needs urgent attention.,Email
+Je ne reçois pas mes courriels. Cela dure depuis ce matin.,Email
+Mail server timeout. Please assist.,Email
+"Je reçois les mails en double. Déjà signalé, toujours pas résolu.",Email
+Email signature missing.,Email
+Je ne reçois pas mes courriels. Bloque mes tâches.,Email
+Ma boîte est pleine. Problème très frustrant.,Email
+"Spam filter too strict. Reported before, still not fixed.",Email
+Je ne peux pas accéder au webmail. Redémarrage déjà essayé.,Email
+Le serveur de messagerie ne répond pas. Redémarrage déjà essayé.,Email
+Email signature missing. Already tried rebooting.,Email
+Impossible d'envoyer des emails. Bloque mes tâches.,Email
+Mailbox is full. Can't continue my work.,Email
+Ma boîte est pleine. Bloque mes tâches.,Email
+Emails aren't sending. Happening since this morning.,Email
+Je ne reçois pas mes courriels. Je ne peux pas travailler.,Email
+Je ne peux pas accéder au webmail. Bloque mes tâches.,Email
+Messages stuck in outbox. Can't continue my work.,Email
+Spam filter too strict. Can't continue my work.,Email
+Je ne peux pas accéder au webmail. Besoin d'assistance.,Email
+"Emails aren't sending. Reported before, still not fixed.",Email
+Mailbox is full. Please assist.,Email
+Can't access webmail. Can't continue my work.,Email
+Emails aren't sending. Please assist.,Email
+Je ne peux pas accéder au webmail. Cela dure depuis ce matin.,Email
+Can't delete old emails. Very frustrating issue.,Email
+Suppression des emails impossible. Redémarrage déjà essayé.,Email
+Emails aren't sending. Already tried rebooting.,Email
+Spam filter too strict. Already tried rebooting.,Email
+Suppression des emails impossible. Cela dure depuis ce matin.,Email
+Receiving duplicates. Can't continue my work.,Email
+Suppression des emails impossible. Une solution ?,Email
+Le serveur de messagerie ne répond pas. Une solution ?,Email
+Ma boîte est pleine. Je ne peux pas travailler.,Email
+Je ne peux pas accéder au webmail. Une solution ?,Email
+Suppression des emails impossible. Je ne peux pas travailler.,Email
+Spam filter too strict. Blocking my tasks.,Email
+Je ne reçois pas mes courriels. Une solution ?,Email
+Receiving duplicates. Blocking my tasks.,Email
+Emails aren't sending.,Email
+Je ne peux pas accéder au webmail.,Email
+Je ne peux pas accéder au webmail. Problème très frustrant.,Email
+Les messages restent dans la boîte d'envoi. Redémarrage déjà essayé.,Email
+Ma boîte est pleine. Cela dure depuis ce matin.,Email
+Je ne reçois pas mes courriels. Besoin d'assistance.,Email
+Le serveur de messagerie ne répond pas. Problème très frustrant.,Email
+Le filtre anti-spam bloque tout. Une solution ?,Email
+"Le WiFi se déconnecte souvent. Déjà signalé, toujours pas résolu.",Network
+Internet is slow.,Network
+DNS not resolving. Already tried rebooting.,Network
+Network authentication failed. Already tried rebooting.,Network
+Le Wi-Fi se déconnecte souvent. Bloque mes tâches.,Network
+Le port LAN ne fonctionne pas. Redémarrage déjà essayé.,Network
+Wi-Fi disconnects. Any solution available?,Network
+Internet is slow. Blocking my tasks.,Network
+Le routeur ne répond pas. Je ne peux pas travailler.,Network
+Can't connect to VPN. Already tried rebooting.,Network
+Le Wi-Fi se déconnecte souvent. Problème très frustrant.,Network
+LAN port not active. Already tried rebooting.,Network
+"Erreur d'authentification réseau. Déjà signalé, toujours pas résolu.",Network
+Le câble Ethernet est non détecté. Redémarrage déjà essayé.,Network
+Impossible de se connecter au VPN. Besoin d'assistance.,Network
+Impossible de se connecter au VPN. Problème très frustrant.,Network
+LAN port not active. Happening since this morning.,Network
+Wi-Fi disconnects. Already tried rebooting.,Network
+LAN port not active. Blocking my tasks.,Network
+Wi-Fi disconnects.,Network
+Le câble Ethernet est non détecté. Cela dure depuis ce matin.,Network
+Erreur d'authentification réseau. Une solution ?,Network
+Router not responding. Any solution available?,Network
+Le Wi-Fi se déconnecte souvent. Redémarrage déjà essayé.,Network
+"Le câble Ethernet est non détecté. Déjà signalé, toujours pas résolu.",Network
+Erreur d'authentification réseau. Redémarrage déjà essayé.,Network
+Erreur d'authentification réseau. Bloque mes tâches.,Network
+Router not responding. Happening since this morning.,Network
+Le port LAN ne fonctionne pas. Une solution ?,Network
+"LAN port not active. Reported before, still not fixed.",Network
+Le port LAN ne fonctionne pas. C'est urgent.,Network
+Can't connect to VPN. This needs urgent attention.,Network
+Le Wi-Fi se déconnecte souvent. Une solution ?,Network
+Network authentication failed.,Network
+LAN port not active. This needs urgent attention.,Network
+"Can't connect to VPN. Reported before, still not fixed.",Network
+Erreur d'authentification réseau.,Network
+Je ne peux pas accéder au lecteur réseau.,Network
+Network drive not accessible. Blocking my tasks.,Network
+Network authentication failed. Any solution available?,Network
+Erreur d'authentification réseau. Problème très frustrant.,Network
+Ethernet not working. Very frustrating issue.,Network
+DNS not resolving. Happening since this morning.,Network
+Le port LAN ne fonctionne pas.,Network
+No IP address.,Network
+Le routeur ne répond pas. Problème très frustrant.,Network
+Erreur d'authentification réseau. Besoin d'assistance.,Network
+DNS not resolving.,Network
+Erreur d'authentification réseau. C'est urgent.,Network
+No IP address. Any solution available?,Network
+La connexion internet est très lente. Problème très frustrant.,Network
+La résolution DNS échoue. Une solution ?,Network
+No IP address. Happening since this morning.,Network
+Ethernet not working. Please assist.,Network
+Le câble Ethernet est non détecté. Bloque mes tâches.,Network
+Aucune adresse IP assignée. Bloque mes tâches.,Network
+Je ne peux pas accéder au lecteur réseau. Je ne peux pas travailler.,Network
+"Wi-Fi disconnects. Reported before, still not fixed.",Network
+"Network authentication failed. Reported before, still not fixed.",Network
+Router not responding. Can't continue my work.,Network
+Network drive not accessible. Happening since this morning.,Network
+Impossible de se connecter au VPN. Cela dure depuis ce matin.,Network
+Internet is slow. Please assist.,Network
+Ethernet not working. Happening since this morning.,Network
+Network authentication failed. This needs urgent attention.,Network
+Internet is slow. Any solution available?,Network
+Le port LAN ne fonctionne pas. Problème très frustrant.,Network
+Erreur d'authentification réseau. Cela dure depuis ce matin.,Network
+Network drive not accessible. This needs urgent attention.,Network
+Le port LAN ne fonctionne pas. Bloque mes tâches.,Network
+"Le port LAN ne fonctionne pas. Déjà signalé, toujours pas résolu.",Network
+Aucune adresse IP assignée. Problème très frustrant.,Network
+La résolution DNS échoue. Bloque mes tâches.,Network
+LAN port not active. Can't continue my work.,Network
+Ethernet not working. Any solution available?,Network
+Impossible de se connecter au VPN. Redémarrage déjà essayé.,Network
+Le port LAN ne fonctionne pas. Cela dure depuis ce matin.,Network
+Network authentication failed. Can't continue my work.,Network
+Le câble Ethernet est non détecté.,Network
+DNS not resolving. Please assist.,Network
+La connexion internet est très lente. Redémarrage déjà essayé.,Network
+DNS not resolving. This needs urgent attention.,Network
+No IP address. Please assist.,Network
+Je ne peux pas accéder au lecteur réseau. Problème très frustrant.,Network
+La résolution DNS échoue.,Network
+No IP address. Already tried rebooting.,Network
+"Aucune adresse IP assignée. Déjà signalé, toujours pas résolu.",Network
+La résolution DNS échoue. C'est urgent.,Network
+Router not responding. Please assist.,Network
+La connexion internet est très lente. Une solution ?,Network
+Je ne peux pas accéder au lecteur réseau. Cela dure depuis ce matin.,Network
+DNS not resolving. Blocking my tasks.,Network
+Aucune adresse IP assignée. Je ne peux pas travailler.,Network
+Can't connect to VPN. Can't continue my work.,Network
+Le routeur ne répond pas.,Network
+Network drive not accessible. Already tried rebooting.,Network
+La connexion internet est très lente. Bloque mes tâches.,Network
+Le routeur ne répond pas. Une solution ?,Network
+Network drive not accessible. Please assist.,Network
+Router not responding. This needs urgent attention.,Network
+"Security patch failed. Reported before, still not fixed.",Security
+Alerte ransomware reçue.,Security
+MFA contourné. C'est urgent.,Security
+Unknown device connected.,Security
+Firewall blocking app. Any solution available?,Security
+Appareil inconnu connecté au réseau.,Security
+Connexion suspecte détectée. Redémarrage déjà essayé.,Security
+Connexion suspecte détectée. Problème très frustrant.,Security
+Malware infection detected. Please assist.,Security
+Unknown device connected. Any solution available?,Security
+"Antivirus a détecté un virus. Déjà signalé, toujours pas résolu.",Security
+Le pare-feu bloque l'application. Problème très frustrant.,Security
+J'ai reçu un mail de phishing. Cela dure depuis ce matin.,Security
+Security patch failed. Already tried rebooting.,Security
+Le pare-feu bloque l'application. Bloque mes tâches.,Security
+Le pare-feu bloque l'application. Une solution ?,Security
+Suspicious login. Happening since this morning.,Security
+Le pare-feu bloque l'application. Je ne peux pas travailler.,Security
+Bypassed MFA. Please assist.,Security
+Suspicious login. This needs urgent attention.,Security
+Alerte virus récurrente. Besoin d'assistance.,Security
+Ransomware alert.,Security
+Firewall blocking app. Already tried rebooting.,Security
+Suspicious login. Any solution available?,Security
+Virus alert active. This needs urgent attention.,Security
+Alerte virus récurrente. Je ne peux pas travailler.,Security
+Suspicious login. Very frustrating issue.,Security
+Antivirus a détecté un virus. Cela dure depuis ce matin.,Security
+Phishing email received. Please assist.,Security
+Malware détecté sur l'ordinateur. Cela dure depuis ce matin.,Security
+Malware détecté sur l'ordinateur. Je ne peux pas travailler.,Security
+MFA contourné. Redémarrage déjà essayé.,Security
+"Connexion suspecte détectée. Déjà signalé, toujours pas résolu.",Security
+Appareil inconnu connecté au réseau. Redémarrage déjà essayé.,Security
+Malware détecté sur l'ordinateur.,Security
+Unknown device connected. Very frustrating issue.,Security
+Firewall blocking app. Please assist.,Security
+Ransomware alert. Already tried rebooting.,Security
+Malware détecté sur l'ordinateur. Redémarrage déjà essayé.,Security
+La mise à jour de sécurité a échoué. Redémarrage déjà essayé.,Security
+Antivirus found a virus.,Security
+Ransomware alert. Can't continue my work.,Security
+Suspicious login. Already tried rebooting.,Security
+Malware infection detected. Any solution available?,Security
+Alerte ransomware reçue. Je ne peux pas travailler.,Security
+Antivirus a détecté un virus. Je ne peux pas travailler.,Security
+Security patch failed. This needs urgent attention.,Security
+J'ai reçu un mail de phishing. C'est urgent.,Security
+Virus alert active. Very frustrating issue.,Security
+Alerte ransomware reçue. Une solution ?,Security
+Connexion suspecte détectée. Je ne peux pas travailler.,Security
+J'ai reçu un mail de phishing. Je ne peux pas travailler.,Security
+J'ai reçu un mail de phishing. Bloque mes tâches.,Security
+Antivirus a détecté un virus. Besoin d'assistance.,Security
+MFA contourné. Problème très frustrant.,Security
+La mise à jour de sécurité a échoué. Je ne peux pas travailler.,Security
+Virus alert active. Blocking my tasks.,Security
+Antivirus a détecté un virus. Problème très frustrant.,Security
+Antivirus a détecté un virus. Bloque mes tâches.,Security
+"Phishing email received. Reported before, still not fixed.",Security
+Alerte ransomware reçue. Problème très frustrant.,Security
+MFA contourné. Je ne peux pas travailler.,Security
+Firewall blocking app. Very frustrating issue.,Security
+Security patch failed. Any solution available?,Security
+Firewall blocking app. Can't continue my work.,Security
+Le pare-feu bloque l'application. C'est urgent.,Security
+Ransomware alert. Very frustrating issue.,Security
+Antivirus found a virus. Blocking my tasks.,Security
+Bypassed MFA. Blocking my tasks.,Security
+Connexion suspecte détectée. C'est urgent.,Security
+Connexion suspecte détectée. Cela dure depuis ce matin.,Security
+Virus alert active. Happening since this morning.,Security
+J'ai reçu un mail de phishing. Une solution ?,Security
+Unknown device connected. This needs urgent attention.,Security
+Malware détecté sur l'ordinateur. Une solution ?,Security
+Malware infection detected. Blocking my tasks.,Security
+Malware infection detected. Already tried rebooting.,Security
+Appareil inconnu connecté au réseau. Je ne peux pas travailler.,Security
+Security patch failed.,Security
+"Le pare-feu bloque l'application. Déjà signalé, toujours pas résolu.",Security
+Antivirus a détecté un virus. Une solution ?,Security
+Unknown device connected. Already tried rebooting.,Security
+Alerte virus récurrente. Bloque mes tâches.,Security
+Ransomware alert. Please assist.,Security
+Connexion suspecte détectée. Bloque mes tâches.,Security
+Virus alert active.,Security
+Phishing email received. Can't continue my work.,Security
+Ransomware alert. Any solution available?,Security
+MFA contourné. Une solution ?,Security
+Malware infection detected.,Security
+"Unknown device connected. Reported before, still not fixed.",Security
+Antivirus a détecté un virus. Redémarrage déjà essayé.,Security
+Virus alert active. Any solution available?,Security
+"Virus alert active. Reported before, still not fixed.",Security
+"Bypassed MFA. Reported before, still not fixed.",Security
+Connexion suspecte détectée. Une solution ?,Security
+Malware détecté sur l'ordinateur. C'est urgent.,Security
+Alerte virus récurrente. Problème très frustrant.,Security
+Le pare-feu bloque l'application. Cela dure depuis ce matin.,Security
+Suspicious login. Blocking my tasks.,Security
+Le port USB ne fonctionne plus. Besoin d'assistance.,Hardware
+Le ventilateur est trop bruyant. Besoin d'assistance.,Hardware
+La batterie se vide rapidement. Je ne peux pas travailler.,Hardware
+Monitor no signal. Any solution available?,Hardware
+Sticky keyboard keys. Happening since this morning.,Hardware
+Loud fan noise. Blocking my tasks.,Hardware
+Unexpected shutdown. Can't continue my work.,Hardware
+Disque dur bruyant. Besoin d'assistance.,Hardware
+La souris se fige. Problème très frustrant.,Hardware
+USB port dead. Any solution available?,Hardware
+La batterie se vide rapidement. Cela dure depuis ce matin.,Hardware
+Disque dur bruyant. C'est urgent.,Hardware
+Le projecteur n'affiche rien. C'est urgent.,Hardware
+Unexpected shutdown.,Hardware
+Battery drains quickly. Very frustrating issue.,Hardware
+Le port USB ne fonctionne plus.,Hardware
+Projector not working. Any solution available?,Hardware
+Le projecteur n'affiche rien. Redémarrage déjà essayé.,Hardware
+Arrêt inattendu de l'appareil. Je ne peux pas travailler.,Hardware
+"Sticky keyboard keys. Reported before, still not fixed.",Hardware
+Arrêt inattendu de l'appareil.,Hardware
+Mouse freezes. Blocking my tasks.,Hardware
+"Projector not working. Reported before, still not fixed.",Hardware
+Le port USB ne fonctionne plus. Une solution ?,Hardware
+L'ordinateur ne démarre pas. Cela dure depuis ce matin.,Hardware
+Monitor no signal. Blocking my tasks.,Hardware
+Battery drains quickly. Blocking my tasks.,Hardware
+Mouse freezes. Can't continue my work.,Hardware
+L'ordinateur ne démarre pas. Je ne peux pas travailler.,Hardware
+Monitor no signal.,Hardware
+Aucun signal à l'écran. Problème très frustrant.,Hardware
+USB port dead. Please assist.,Hardware
+La batterie se vide rapidement. Besoin d'assistance.,Hardware
+Battery drains quickly. Happening since this morning.,Hardware
+Le projecteur n'affiche rien. Je ne peux pas travailler.,Hardware
+Noisy hard disk. This needs urgent attention.,Hardware
+Arrêt inattendu de l'appareil. Redémarrage déjà essayé.,Hardware
+L'ordinateur ne démarre pas. Redémarrage déjà essayé.,Hardware
+Certaines touches du clavier ne fonctionnent plus. Besoin d'assistance.,Hardware
+La batterie se vide rapidement. C'est urgent.,Hardware
+Certaines touches du clavier ne fonctionnent plus.,Hardware
+"Le port USB ne fonctionne plus. Déjà signalé, toujours pas résolu.",Hardware
+USB port dead. This needs urgent attention.,Hardware
+Projector not working. Blocking my tasks.,Hardware
+"La souris se fige. Déjà signalé, toujours pas résolu.",Hardware
+Noisy hard disk. Blocking my tasks.,Hardware
+"Disque dur bruyant. Déjà signalé, toujours pas résolu.",Hardware
+Mouse freezes.,Hardware
+Laptop won’t start. Any solution available?,Hardware
+Unexpected shutdown. Very frustrating issue.,Hardware
+Aucun signal à l'écran. Redémarrage déjà essayé.,Hardware
+"Monitor no signal. Reported before, still not fixed.",Hardware
+Le ventilateur est trop bruyant. Problème très frustrant.,Hardware
+Aucun signal à l'écran. Bloque mes tâches.,Hardware
+Noisy hard disk. Already tried rebooting.,Hardware
+Certaines touches du clavier ne fonctionnent plus. Bloque mes tâches.,Hardware
+Sticky keyboard keys. Please assist.,Hardware
+Aucun signal à l'écran. Besoin d'assistance.,Hardware
+Le projecteur n'affiche rien.,Hardware
+Sticky keyboard keys.,Hardware
+Loud fan noise. Can't continue my work.,Hardware
+Laptop won’t start. Already tried rebooting.,Hardware
+Laptop won’t start.,Hardware
+Laptop won’t start. This needs urgent attention.,Hardware
+Noisy hard disk. Any solution available?,Hardware
+"Loud fan noise. Reported before, still not fixed.",Hardware
+Disque dur bruyant.,Hardware
+Mouse freezes. Very frustrating issue.,Hardware
+Laptop won’t start. Blocking my tasks.,Hardware
+Le ventilateur est trop bruyant. C'est urgent.,Hardware
+Aucun signal à l'écran. Je ne peux pas travailler.,Hardware
+Projector not working. Can't continue my work.,Hardware
+L'ordinateur ne démarre pas. Besoin d'assistance.,Hardware
+Monitor no signal. Please assist.,Hardware
+La batterie se vide rapidement.,Hardware
+Loud fan noise. Very frustrating issue.,Hardware
+L'ordinateur ne démarre pas. Problème très frustrant.,Hardware
+La souris se fige. Cela dure depuis ce matin.,Hardware
+Le ventilateur est trop bruyant. Une solution ?,Hardware
+Certaines touches du clavier ne fonctionnent plus. Cela dure depuis ce matin.,Hardware
+USB port dead. Happening since this morning.,Hardware
+"Laptop won’t start. Reported before, still not fixed.",Hardware
+Loud fan noise. Already tried rebooting.,Hardware
+Disque dur bruyant. Je ne peux pas travailler.,Hardware
+Le port USB ne fonctionne plus. Redémarrage déjà essayé.,Hardware
+Le ventilateur est trop bruyant. Redémarrage déjà essayé.,Hardware
+"USB port dead. Reported before, still not fixed.",Hardware
+Certaines touches du clavier ne fonctionnent plus. C'est urgent.,Hardware
+La souris se fige. Une solution ?,Hardware
+Sticky keyboard keys. This needs urgent attention.,Hardware
+Laptop won’t start. Very frustrating issue.,Hardware
+"La batterie se vide rapidement. Déjà signalé, toujours pas résolu.",Hardware
+Unexpected shutdown. Happening since this morning.,Hardware
+La batterie se vide rapidement. Bloque mes tâches.,Hardware
+Le projecteur n'affiche rien. Une solution ?,Hardware
+Sticky keyboard keys. Blocking my tasks.,Hardware
+Laptop won’t start. Happening since this morning.,Hardware
+"L'ordinateur ne démarre pas. Déjà signalé, toujours pas résolu.",Hardware
+"Aucun signal à l'écran. Déjà signalé, toujours pas résolu.",Hardware
+Le projecteur n'affiche rien. Bloque mes tâches.,Hardware
+Paper jam. Already tried rebooting.,Printing
+Les pages sortent vierges. Je ne peux pas travailler.,Printing
+Slow printer. Happening since this morning.,Printing
+Slow printer. Blocking my tasks.,Printing
+Shared printer unreachable. Blocking my tasks.,Printing
+Blank pages. Please assist.,Printing
+Les pages sortent vierges. Problème très frustrant.,Printing
+L'imprimante est hors ligne.,Printing
+Printer offline. Blocking my tasks.,Printing
+"Alerte toner bas malgré un plein. Déjà signalé, toujours pas résolu.",Printing
+Les pages sortent vierges. Redémarrage déjà essayé.,Printing
+Alerte toner bas malgré un plein. Je ne peux pas travailler.,Printing
+L'imprimante est hors ligne. Besoin d'assistance.,Printing
+Alerte toner bas malgré un plein. Redémarrage déjà essayé.,Printing
+"Driver missing. Reported before, still not fixed.",Printing
+"Blank pages. Reported before, still not fixed.",Printing
+Low toner warning. Please assist.,Printing
+Bourrage papier fréquent. Je ne peux pas travailler.,Printing
+Blank pages. Can't continue my work.,Printing
+"Pilote imprimante manquant. Déjà signalé, toujours pas résolu.",Printing
+Slow printer. Can't continue my work.,Printing
+Print queue stuck. Can't continue my work.,Printing
+Impossible de se connecter à l'imprimante partagée. Redémarrage déjà essayé.,Printing
+Les couleurs sont incorrectes. C'est urgent.,Printing
+Misaligned print. Very frustrating issue.,Printing
+Print queue stuck. Blocking my tasks.,Printing
+Blank pages. This needs urgent attention.,Printing
+Shared printer unreachable. This needs urgent attention.,Printing
+L'imprimante est hors ligne. Je ne peux pas travailler.,Printing
+Shared printer unreachable. Any solution available?,Printing
+Blank pages.,Printing
+Misaligned print. Any solution available?,Printing
+Bourrage papier fréquent. Cela dure depuis ce matin.,Printing
+Pilote imprimante manquant. Bloque mes tâches.,Printing
+Les pages sortent vierges. Bloque mes tâches.,Printing
+Vitesse d'impression lente. Cela dure depuis ce matin.,Printing
+Les couleurs sont incorrectes. Problème très frustrant.,Printing
+"Les impressions sont bloquées. Déjà signalé, toujours pas résolu.",Printing
+Blank pages. Blocking my tasks.,Printing
+Les couleurs sont incorrectes. Bloque mes tâches.,Printing
+Pilote imprimante manquant. C'est urgent.,Printing
+Bourrage papier fréquent. Redémarrage déjà essayé.,Printing
+Alerte toner bas malgré un plein. Cela dure depuis ce matin.,Printing
+"Color misprint. Reported before, still not fixed.",Printing
+Printer offline. Can't continue my work.,Printing
+Les impressions sont bloquées. Cela dure depuis ce matin.,Printing
+Shared printer unreachable. Can't continue my work.,Printing
+Paper jam. Very frustrating issue.,Printing
+L'imprimante est hors ligne. Problème très frustrant.,Printing
+Bourrage papier fréquent. Une solution ?,Printing
+Low toner warning. Already tried rebooting.,Printing
+"Slow printer. Reported before, still not fixed.",Printing
+Misaligned print. Please assist.,Printing
+Misaligned print. Can't continue my work.,Printing
+Color misprint. Happening since this morning.,Printing
+Vitesse d'impression lente. Je ne peux pas travailler.,Printing
+Driver missing. Very frustrating issue.,Printing
+Les couleurs sont incorrectes. Une solution ?,Printing
+Low toner warning. Any solution available?,Printing
+Vitesse d'impression lente.,Printing
+Low toner warning.,Printing
+Driver missing. This needs urgent attention.,Printing
+Les couleurs sont incorrectes.,Printing
+Impossible de se connecter à l'imprimante partagée. Je ne peux pas travailler.,Printing
+Bourrage papier fréquent. C'est urgent.,Printing
+Impression décalée. Besoin d'assistance.,Printing
+Slow printer. This needs urgent attention.,Printing
+Print queue stuck. Already tried rebooting.,Printing
+Les impressions sont bloquées. Bloque mes tâches.,Printing
+"L'imprimante est hors ligne. Déjà signalé, toujours pas résolu.",Printing
+Bourrage papier fréquent. Besoin d'assistance.,Printing
+Les impressions sont bloquées. Je ne peux pas travailler.,Printing
+Driver missing. Please assist.,Printing
+Impression décalée.,Printing
+Color misprint.,Printing
+Vitesse d'impression lente. Une solution ?,Printing
+Shared printer unreachable. Happening since this morning.,Printing
+Low toner warning. Very frustrating issue.,Printing
+Paper jam. Can't continue my work.,Printing
+Impossible de se connecter à l'imprimante partagée. C'est urgent.,Printing
+Bourrage papier fréquent. Problème très frustrant.,Printing
+Misaligned print. Happening since this morning.,Printing
+Blank pages. Any solution available?,Printing
+Impression décalée. Cela dure depuis ce matin.,Printing
+Shared printer unreachable. Very frustrating issue.,Printing
+Paper jam. Any solution available?,Printing
+Misaligned print. Blocking my tasks.,Printing
+Blank pages. Happening since this morning.,Printing
+Printer offline. Happening since this morning.,Printing
+Misaligned print.,Printing
+Color misprint. Blocking my tasks.,Printing
+Printer offline. Very frustrating issue.,Printing
+Alerte toner bas malgré un plein. Besoin d'assistance.,Printing
+Driver missing.,Printing
+Slow printer. Already tried rebooting.,Printing
+"Bourrage papier fréquent. Déjà signalé, toujours pas résolu.",Printing
+Misaligned print. Already tried rebooting.,Printing
+Driver missing. Happening since this morning.,Printing
+Print queue stuck. Very frustrating issue.,Printing
+"Printer offline. Reported before, still not fixed.",Printing
+L'application plante au lancement.,Software
+Le raccourci ne fonctionne pas. Je ne peux pas travailler.,Software
+"Shortcut broken. Reported before, still not fixed.",Software
+App freezes. Blocking my tasks.,Software
+App crashes.,Software
+Slow after upgrade. Please assist.,Software
+Buggy interface. Can't continue my work.,Software
+La licence du logiciel est expirée. Une solution ?,Software
+License expired. Blocking my tasks.,Software
+Impossible d'installer la mise à jour. Problème très frustrant.,Software
+Impossible d'installer la mise à jour. Redémarrage déjà essayé.,Software
+Les paramètres ne sont pas sauvegardés. Besoin d'assistance.,Software
+Slow after upgrade. This needs urgent attention.,Software
+Shortcut broken. Please assist.,Software
+Feature missing after update. Very frustrating issue.,Software
+L'application plante au lancement. Problème très frustrant.,Software
+Impossible d'installer la mise à jour. Besoin d'assistance.,Software
+L'application plante au lancement. Cela dure depuis ce matin.,Software
+Update won't install. Can't continue my work.,Software
+"La licence du logiciel est expirée. Déjà signalé, toujours pas résolu.",Software
+La licence du logiciel est expirée. Besoin d'assistance.,Software
+Le raccourci ne fonctionne pas. Une solution ?,Software
+Settings not saving.,Software
+Update won't install. This needs urgent attention.,Software
+"Le programme se fige. Déjà signalé, toujours pas résolu.",Software
+Update won't install. Please assist.,Software
+App crashes. Blocking my tasks.,Software
+L'application plante au lancement. Besoin d'assistance.,Software
+Impossible d'installer la mise à jour. Je ne peux pas travailler.,Software
+Feature missing after update. This needs urgent attention.,Software
+Update won't install. Very frustrating issue.,Software
+Settings not saving. Happening since this morning.,Software
+"Fonctionnalité désactivée après mise à jour. Déjà signalé, toujours pas résolu.",Software
+"Update won't install. Reported before, still not fixed.",Software
+License expired.,Software
+Fonctionnalité désactivée après mise à jour. Bloque mes tâches.,Software
+Le raccourci ne fonctionne pas. Bloque mes tâches.,Software
+Le programme se fige.,Software
+"Comportement inattendu dans l'interface. Déjà signalé, toujours pas résolu.",Software
+License expired. Please assist.,Software
+Settings not saving. This needs urgent attention.,Software
+Le raccourci ne fonctionne pas. C'est urgent.,Software
+Buggy interface.,Software
+Shortcut broken. Can't continue my work.,Software
+Impossible d'installer la mise à jour. Bloque mes tâches.,Software
+Les paramètres ne sont pas sauvegardés. Redémarrage déjà essayé.,Software
+Erreur d'exécution 500. Je ne peux pas travailler.,Software
+Runtime error 500. Can't continue my work.,Software
+Le programme se fige. Cela dure depuis ce matin.,Software
+Runtime error 500. Very frustrating issue.,Software
+Settings not saving. Please assist.,Software
+L'application plante au lancement. C'est urgent.,Software
+Runtime error 500. Please assist.,Software
+Lenteur après la mise à niveau. Cela dure depuis ce matin.,Software
+La licence du logiciel est expirée. Bloque mes tâches.,Software
+Le programme se fige. Je ne peux pas travailler.,Software
+License expired. Can't continue my work.,Software
+App freezes. Very frustrating issue.,Software
+"Les paramètres ne sont pas sauvegardés. Déjà signalé, toujours pas résolu.",Software
+Buggy interface. Please assist.,Software
+Settings not saving. Blocking my tasks.,Software
+Slow after upgrade. Blocking my tasks.,Software
+Feature missing after update.,Software
+Slow after upgrade. Any solution available?,Software
+Runtime error 500. Any solution available?,Software
+L'application plante au lancement. Redémarrage déjà essayé.,Software
+L'application plante au lancement. Une solution ?,Software
+Shortcut broken. Already tried rebooting.,Software
+Buggy interface. Very frustrating issue.,Software
+Les paramètres ne sont pas sauvegardés. Je ne peux pas travailler.,Software
+"L'application plante au lancement. Déjà signalé, toujours pas résolu.",Software
+Feature missing after update. Can't continue my work.,Software
+Slow after upgrade.,Software
+Le raccourci ne fonctionne pas. Cela dure depuis ce matin.,Software
+Shortcut broken. Any solution available?,Software
+Erreur d'exécution 500. Problème très frustrant.,Software
+Le raccourci ne fonctionne pas. Besoin d'assistance.,Software
+Update won't install. Blocking my tasks.,Software
+Comportement inattendu dans l'interface. Bloque mes tâches.,Software
+App freezes. Any solution available?,Software
+"App crashes. Reported before, still not fixed.",Software
+"App freezes. Reported before, still not fixed.",Software
+Erreur d'exécution 500.,Software
+Les paramètres ne sont pas sauvegardés. Une solution ?,Software
+L'application plante au lancement. Bloque mes tâches.,Software
+Le raccourci ne fonctionne pas. Redémarrage déjà essayé.,Software
+"Buggy interface. Reported before, still not fixed.",Software
+Runtime error 500. This needs urgent attention.,Software
+Slow after upgrade. Very frustrating issue.,Software
+Comportement inattendu dans l'interface.,Software
+Feature missing after update. Happening since this morning.,Software
+Le programme se fige. Besoin d'assistance.,Software
+Feature missing after update. Already tried rebooting.,Software
+Lenteur après la mise à niveau. Redémarrage déjà essayé.,Software
+Lenteur après la mise à niveau.,Software
+Lenteur après la mise à niveau. Bloque mes tâches.,Software
+Les paramètres ne sont pas sauvegardés. Problème très frustrant.,Software
+App freezes. Already tried rebooting.,Software
+La licence du logiciel est expirée. C'est urgent.,Software
+"Erreur d'exécution 500. Déjà signalé, toujours pas résolu.",Software
